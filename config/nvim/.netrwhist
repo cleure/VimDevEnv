@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/eurec001/dev/Landing_Pages'
+let g:netrw_dirhist_2='/Users/eurec001/dev/Landing_Pages/account-recovery/src/account-recovery-v3/modules/factories'
+let g:netrw_dirhist_3='/Users/eurec001/dev/Landing_Pages/account-recovery/src/account-recovery-v3/modules/pages/ManageAccounts/UpgradeNRT'
+let g:netrw_dirhist_4='/Users/eurec001/dev/Landing_Pages/account-recovery/src/account-recovery-v3/modules/pages/ManageAccounts/Index'
+let g:netrw_dirhist_5='/Users/eurec001/dev/Landing_Pages'
+let g:netrw_dirhist_6='/Users/eurec001/dev/Landing_Pages/account-recovery/src/account-recovery-v3/modules/pages/ManageAccounts/UpgradeNRT'
+let g:netrw_dirhist_7='/Users/eurec001/dev/Landing_Pages/account-recovery/src/account-recovery-v3/modules/services'
+let g:netrw_dirhist_8='/Users/eurec001/dev/Landing_Pages/account-recovery/src/account-recovery-v3/modules/pages/ManageAccounts/UpgradeNRT'
+let g:netrw_dirhist_9='/Users/eurec001/dev/Landing_Pages/account-recovery/src/account-recovery-v3/modules/pages/date-of-birth'

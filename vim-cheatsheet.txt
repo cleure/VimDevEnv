@@ -1,0 +1,56 @@
+
+Shortcuts:
+\                   leader key
+\[                  previou buffer
+\]                  next buffer
+\w                  close buffer
+\n                  open Explore
+\\                  comment out line(s) (visual mode)
+
+Editor Mode:
+i                   insert mode
+A                   insert mode (cursor placed at EOL)
+|                   place cursor at SOL
+$                   place cursor at EOL
+>                   tab right (works in visual mode)
+<                   tab left (works in visual mode)
+CTRL+v              visual block mode
+
+Splits:
+CTRL+w              switch between splits using arrow keys
+
+Searching:
+:vimgrep "expression" files/**/*.js
+:copen 20           Split search, 20 height
+
+Buffers:
+:ls                 list all open buffers
+:ls!                list hidden buffers
+:b <name>           switch to buffer <name>
+:bp                 switch to previous buffer
+:bn                 switch to next buffer
+:bd                 delete/remove the current buffer
+
+Tabs:
+:tabnew             opens a new tab
+:tabn               next tab
+:tabp               previous tab
+:q                  quit current tab
+
+Visual Mode:
+>                   indent/tab block (highlighted selection)
+<                   unindent/de-tab block (highlighted selection)
+
+Visual Block Mode (CTRL+v):
+\                   comment out line(s) (shortcut, map \ :'<,'>norm i//<CR>)
+:'<,'>              apply command across selection
+SHIFT+i             insert characters (use ESC to end and insert)
+
+Explore Mode:
+d                   creates a new directory
+%                   creates and opens a new file
+D                   deletes a directory or file
+R                   renames a file
+o                   opens the file in a horizontal split
+v                   opens the file in a vertical split
+
