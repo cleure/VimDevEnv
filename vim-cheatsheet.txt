@@ -6,6 +6,8 @@ Shortcuts:
 \w                  close buffer
 \n                  open Explore
 \\                  comment out line(s) (visual mode)
+CTRL-a              increment number
+CTRL-x              decrement number
 
 Editor Mode:
 i                   insert mode
