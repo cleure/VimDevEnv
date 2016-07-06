@@ -36,6 +36,17 @@ map <Leader>\ :'<,'>norm i//<CR>
 set splitbelow          " Horizontal split below current.
 set splitright          " Vertical split to right of current.
 
+" Tell Vim which characters to show for expanded TABs,
+" trailing whitespace, and end-of-lines. VERY useful!
+if &listchars ==# 'eol:$'
+  set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+endif
+set list                " Show problematic characters.
+
+" Also highlight all tabs and trailing whitespace characters.
+highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
+match ExtraWhitespace /\s\+$\|\t/
+
 " Remember last view-mode in :Explore (toggle view-style with i)
 let g:netrw_liststyle=3
 
