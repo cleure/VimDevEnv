@@ -10,6 +10,9 @@ call plug#begin('~/.config/nvim/plugged')
     " Better syntax highlighting
     Plug 'sheerun/vim-polyglot'
 
+    " Per-project settings, defined in .lvimrc
+    Plug 'embear/vim-localvimrc'
+
     " Linting
     Plug 'scrooloose/syntastic'
 

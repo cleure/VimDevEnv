@@ -18,6 +18,9 @@ set expandtab
 " Don't forget history when switching between buffers
 set hidden
 
+" Show 5 lines above/below when scrolling
+set scrolloff=5
+
 " Set leader
 let mapleader="\\"
 
@@ -47,6 +50,9 @@ set list                " Show problematic characters.
 highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
 match ExtraWhitespace /\s\+$\|\t/
 
+" Use eslint instead of jshint
+let g:syntastic_javascript_checkers = ['eslint']
+
 " Remember last view-mode in :Explore (toggle view-style with i)
 let g:netrw_liststyle=3
 
@@ -61,21 +67,7 @@ let g:airline_left_sep = ' '
 let g:airline_left_alt_sep = '|'
 let g:airline_right_sep = ' '
 let g:airline_right_alt_sep = '|'
-"let g:airline_theme= 'badwolf'
-"let g:airline_theme= 'cool'
 
-" https://github.com/vim-airline/vim-airline-themes/tree/master/autoload/airline/themes
-
-"firewatch
-"janah
-"fahrenheit
-"oceandeep
-"predawn
-"ran
-"hybrid
-"sift
-"slate
-"wombat256mod
-"zellner
+" Colorscheme
 colo fahrenheit
 
