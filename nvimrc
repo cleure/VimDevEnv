@@ -15,11 +15,18 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+" Unmap ESC (use CTRL-C for ESC)
+noremap <ESC> <NOP>
+inoremap <ESC> <NOP>
+
 " Don't forget history when switching between buffers
 set hidden
 
 " Show 5 lines above/below when scrolling
 set scrolloff=5
+
+" Use the system clipboard as the default
+set clipboard=unnamed
 
 " Set leader
 let mapleader="\\"
