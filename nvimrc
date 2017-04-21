@@ -15,6 +15,9 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+" Incremental Search
+set incsearch
+
 " Unmap ESC (use CTRL-C for ESC)
 noremap <ESC> <NOP>
 inoremap <ESC> <NOP>
@@ -76,5 +79,31 @@ let g:airline_right_sep = ' '
 let g:airline_right_alt_sep = '|'
 
 " Colorscheme
-colo fahrenheit
+set background=dark
+"colo peachpuff
+"colo off
+"colo pablo
+"colo nova
+"colo jellyx
+colo FloralGust
+"colo OceanicNext
+"colo CandyPaper
+"colo antares
+"colo asu1dark
+"colo badwolf
+"colo Tomorrow-Night-Bright
+"colo dzo
+"colo ecostation
+"colo elflord
+"colo torte
+"colo sorcerer
+"colo darkblue
+"colo zellner
+"colo distill
+"colo lizard
+"colo janah
+
+" Rotational
+"colo sift
+"colo fahrenheit
 
