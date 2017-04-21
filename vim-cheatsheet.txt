@@ -56,3 +56,7 @@ R                   renames a file
 o                   opens the file in a horizontal split
 v                   opens the file in a vertical split
 
+Folds:
+zfi{                fold inside braces
+zfa{                fold outside braces
+
