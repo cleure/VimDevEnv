@@ -22,6 +22,9 @@ set incsearch
 noremap <ESC> <NOP>
 inoremap <ESC> <NOP>
 
+" Allow JSX highlighting without .jsx extension
+let g:jsx_ext_required = 0
+
 " Don't forget history when switching between buffers
 set hidden
 
@@ -85,7 +88,8 @@ set background=dark
 "colo pablo
 "colo nova
 "colo jellyx
-colo FloralGust
+"colo FloralGust
+colo FloralGust2
 "colo OceanicNext
 "colo CandyPaper
 "colo antares

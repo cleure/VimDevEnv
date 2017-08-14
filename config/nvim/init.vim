@@ -13,6 +13,9 @@ call plug#begin('~/.config/nvim/plugged')
     " Per-project settings, defined in .lvimrc
     Plug 'embear/vim-localvimrc'
 
+    " JSX Highlighting
+    Plug 'mxw/vim-jsx'
+
     " Linting
     Plug 'scrooloose/syntastic'
 
@@ -34,6 +37,7 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'sherifkandeel/vim-colors'
     Plug 'whatyouhide/vim-gotham'
     Plug 'cseelus/vim-colors-lucid'
+    Plug 'morhetz/gruvbox'
 
     Plug 'zanglg/nova.vim'
     Plug 'encody/nvim'
