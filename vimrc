@@ -81,6 +81,9 @@ syntax on
 " Case-insensitive search
 set ic
 
+" Persistent highlight on search terms
+set hlsearch
+
 " Show numbers, relative to current line
 set number
 set relativenumber
@@ -166,8 +169,8 @@ set background=dark
 "colo off
 "colo pablo
 "colo nova
-colo jellyx
-"colo FloralGust
+"colo jellyx
+colo FloralGust
 "colo FloralGust2
 "colo OceanicNext
 "colo CandyPaper
