@@ -66,8 +66,14 @@ set list                " Show problematic characters.
 highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
 match ExtraWhitespace /\s\+$\|\t/
 
-" Use eslint instead of jshint
+" Syntastic: Use eslint instead of jshint
 let g:syntastic_javascript_checkers = ['eslint']
+
+" Syntastic: Set passive mode for java
+let g:syntastic_mode_map = {
+    \ "mode": "active",
+    \ "active_filetypes": [],
+    \ "passive_filetypes": ["java"] }
 
 " Remember last view-mode in :Explore (toggle view-style with i)
 let g:netrw_liststyle=3
@@ -83,6 +89,9 @@ let g:airline_left_sep = ' '
 let g:airline_left_alt_sep = '|'
 let g:airline_right_sep = ' '
 let g:airline_right_alt_sep = '|'
+
+" CTRL-P: Ignored directories
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git|target'
 
 " Colorscheme
 set background=dark

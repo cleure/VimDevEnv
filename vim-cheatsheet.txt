@@ -29,6 +29,8 @@ Buffers:
 :ls                 list all open buffers
 :ls!                list hidden buffers
 :b <name>           switch to buffer <name>
+                    NOTE: name can be the number of the buffer, or any part of the file name or path
+
 :bp                 switch to previous buffer
 :bn                 switch to next buffer
 :bd                 delete/remove the current buffer
@@ -59,4 +61,15 @@ v                   opens the file in a vertical split
 Folds:
 zfi{                fold inside braces
 zfa{                fold outside braces
+
+Text Alignment - Tabular Plugin
+:Tabularize /:         aligns text separated by ":" character
+:Tabularize /,/r0   comma separated, right aligned, zero spaces between comma
+
+https://raw.githubusercontent.com/godlygeek/tabular/master/doc/Tabular.txt
+
+Executing Shell Commands:
+
+:! cmd              executes shell command
+:r ! {cmd}          executes shell command, and pastes output into current buffer
 

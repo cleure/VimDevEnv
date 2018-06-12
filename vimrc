@@ -20,6 +20,7 @@ call plug#begin()
 
     " Text Alignment
     "Plug 'junegunn/vim-easy-align'
+    Plug 'godlygeek/tabular'
 
     " Themes
     Plug 'hhsnopek/vim-firewatch'

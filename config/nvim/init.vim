@@ -23,6 +23,10 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
 
+    " Text Alignment
+    "Plug 'junegunn/vim-easy-align'
+    Plug 'godlygeek/tabular'
+
     " Themes
     Plug 'hhsnopek/vim-firewatch'
     Plug 'fcpg/vim-fahrenheit'
