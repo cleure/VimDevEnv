@@ -21,9 +21,14 @@ CTRL+v              visual block mode
 Splits:
 CTRL+w              switch between splits using arrow keys
 
-Searching:
+Search & Replace:
 :vimgrep "expression" files/**/*.js
 :copen 20           Split search, 20 height
+:%s/search/replace   Search & Replace
+
+Terminal
+:term               launches terminal in new buffer
+:vs term://bash     verticle split terminal
 
 Buffers:
 :ls                 list all open buffers
