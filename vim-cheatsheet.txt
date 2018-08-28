@@ -77,4 +77,11 @@ Executing Shell Commands:
 
 :! cmd              executes shell command
 :r ! {cmd}          executes shell command, and pastes output into current buffer
+:%! xxd             runs buffer through xxd (producing hex)
+                        : enters command-line mode
+                        % matches whole file as a range
+                        ! filters that range through an external command
+
+:%! xxd -r          runs buffer (hex) through xxd (reverting to original)
+:%! jq '.PATH'      runs buffer through jq, for JSON manipulation
 
