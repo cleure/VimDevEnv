@@ -115,7 +115,7 @@ set hidden
 set scrolloff=5
 
 " Use the system clipboard as the default
-set clipboard=unnamed
+set clipboard=unnamedplus
 
 " Set leader
 let mapleader="\\"
